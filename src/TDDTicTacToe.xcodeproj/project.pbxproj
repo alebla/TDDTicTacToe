@@ -14,6 +14,8 @@
 		200B476F29BFA2280010FC4E /* TDDTicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B476E29BFA2280010FC4E /* TDDTicTacToeTests.swift */; };
 		200B477929BFA2280010FC4E /* TDDTicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B477829BFA2280010FC4E /* TDDTicTacToeUITests.swift */; };
 		200B477B29BFA2280010FC4E /* TDDTicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B477A29BFA2280010FC4E /* TDDTicTacToeUITestsLaunchTests.swift */; };
+		200B478829BFBB8C0010FC4E /* TicModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B478729BFBB8C0010FC4E /* TicModelTests.swift */; };
+		200B478B29BFBC370010FC4E /* TicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B478A29BFBC370010FC4E /* TicModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		200B477429BFA2280010FC4E /* TDDTicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDTicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		200B477829BFA2280010FC4E /* TDDTicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDTicTacToeUITests.swift; sourceTree = "<group>"; };
 		200B477A29BFA2280010FC4E /* TDDTicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDTicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		200B478729BFBB8C0010FC4E /* TicModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TicModelTests.swift; path = ../../../TicModelTests.swift; sourceTree = "<group>"; };
+		200B478A29BFBC370010FC4E /* TicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 				200B475D29BFA2270010FC4E /* TDDTicTacToeApp.swift */,
 				200B475F29BFA2270010FC4E /* ContentView.swift */,
 				200B476129BFA2280010FC4E /* Assets.xcassets */,
+				200B478929BFBC1B0010FC4E /* Models */,
 				200B476329BFA2280010FC4E /* Preview Content */,
 			);
 			path = TDDTicTacToe;
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				200B476E29BFA2280010FC4E /* TDDTicTacToeTests.swift */,
+				200B478729BFBB8C0010FC4E /* TicModelTests.swift */,
 			);
 			path = TDDTicTacToeTests;
 			sourceTree = "<group>";
@@ -125,6 +131,14 @@
 				200B477A29BFA2280010FC4E /* TDDTicTacToeUITestsLaunchTests.swift */,
 			);
 			path = TDDTicTacToeUITests;
+			sourceTree = "<group>";
+		};
+		200B478929BFBC1B0010FC4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				200B478A29BFBC370010FC4E /* TicModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,7 @@
 			files = (
 				200B476029BFA2270010FC4E /* ContentView.swift in Sources */,
 				200B475E29BFA2270010FC4E /* TDDTicTacToeApp.swift in Sources */,
+				200B478B29BFBC370010FC4E /* TicModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200B478829BFBB8C0010FC4E /* TicModelTests.swift in Sources */,
 				200B476F29BFA2280010FC4E /* TDDTicTacToeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
