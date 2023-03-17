@@ -20,6 +20,7 @@ enum Winner {
 struct TicModel {
     private var _grid: [Cell]
     private var _winner: Winner
+    private var _isPlayerOneTurn: Bool
     
     init() {
         _grid = []
@@ -27,6 +28,7 @@ struct TicModel {
             _grid.append(Cell.b)
         }
         _winner = .none
+        _isPlayerOneTurn = true
     }
     
     var grid: [Cell] {
@@ -38,7 +40,11 @@ struct TicModel {
     }
     
     var isGridFull: Bool {
-        grid.filter { $0 == .b }.count == 0
+        get { grid.filter { $0 == .b }.count == 0 }
+    }
+    
+    var isPlayerOneTurn: Bool {
+        get { _isPlayerOneTurn }
     }
     
     mutating func setCell(n: Int, c: Cell) {
@@ -47,6 +53,8 @@ struct TicModel {
         guard _grid[n] == .b else { return }
         
         _grid[n] = c
+        
+        _isPlayerOneTurn.toggle()
     }
     
     mutating func updateGameStatus() -> Bool {

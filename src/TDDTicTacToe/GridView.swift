@@ -24,7 +24,7 @@ struct GridView: View {
                         
                         Button {
                             //Set cell to X or O
-                            ticVm.setCell(index: index, cellValue: .x)
+                            ticVm.setCell(index: index, cellValue: ticVm.isPlayerOneTurn ? .x: .o)
                         } label: {
                             ZStack {
                                 RoundedRectangle(cornerRadius: 10)

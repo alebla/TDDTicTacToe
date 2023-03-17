@@ -26,6 +26,10 @@ final class TicViewModel: ObservableObject {
         get { ticModel.isGridFull || ( ticModel.winner != .none ) }
     }
     
+    var isPlayerOneTurn: Bool {
+        get { ticModel.isPlayerOneTurn }
+    }
+    
     func setCell(index: Int, cellValue: Cell) {
         ticModel.setCell(n: index, c: cellValue)
         
