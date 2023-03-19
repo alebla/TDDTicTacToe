@@ -20,6 +20,7 @@
 		2010DB3429BFE74700533A2B /* TicViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010DB3329BFE74700533A2B /* TicViewModelTests.swift */; };
 		203025E829C256F300A6FA45 /* TicTacToeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203025E729C256F300A6FA45 /* TicTacToeView.swift */; };
 		203025EA29C3731500A6FA45 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203025E929C3731500A6FA45 /* GridView.swift */; };
+		20FB3CAB29C3F1B700B79CD6 /* GridLinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB3CAA29C3F1B700B79CD6 /* GridLinesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		2010DB3329BFE74700533A2B /* TicViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicViewModelTests.swift; sourceTree = "<group>"; };
 		203025E729C256F300A6FA45 /* TicTacToeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeView.swift; sourceTree = "<group>"; };
 		203025E929C3731500A6FA45 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		20FB3CAA29C3F1B700B79CD6 /* GridLinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLinesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				203025E729C256F300A6FA45 /* TicTacToeView.swift */,
 				2010DB3129BFE55200533A2B /* TicViewModel.swift */,
 				203025E929C3731500A6FA45 /* GridView.swift */,
+				20FB3CAA29C3F1B700B79CD6 /* GridLinesView.swift */,
 				200B476129BFA2280010FC4E /* Assets.xcassets */,
 				200B478929BFBC1B0010FC4E /* Models */,
 				200B476329BFA2280010FC4E /* Preview Content */,
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20FB3CAB29C3F1B700B79CD6 /* GridLinesView.swift in Sources */,
 				200B476029BFA2270010FC4E /* ContentView.swift in Sources */,
 				2010DB3229BFE55200533A2B /* TicViewModel.swift in Sources */,
 				203025E829C256F300A6FA45 /* TicTacToeView.swift in Sources */,
